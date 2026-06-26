@@ -83,27 +83,18 @@ Principais classes:
 - Git
 - GitHub
 
-## Estrutura do Projeto
-03_pratica_avaliada
-│
-├── atividade01
-│ ├── Usuario.java
-│ ├── Administrador.java
-│ ├── Validacao.java
-│ └── TestaUsuarios.java
-│
-├── atividade02
-│ ├── Carro.java
-│ ├── CarroEletrico.java
-│ ├── Validacao.java
-│ └── TestaCarros.java
-│
-└── atividade03
-├── Notificacao.java
-├── NotificacaoEmail.java
-├── NotificacaoSMS.java
-├── Validacao.java
-└── TestaNotificacoes.java
+## Organização do Projeto
+
+O projeto está dividido em três packages, cada um contendo um sistema desenvolvido com conceitos de Programação Orientada a Objetos:
+
+- **atividade01**: Sistema de Usuários  
+  Implementação de usuários e administradores utilizando herança, encapsulamento, validações e tratamento de exceções.
+
+- **atividade02**: Sistema de Veículos  
+  Implementação de carros e carros elétricos utilizando herança, polimorfismo, controle de bateria e validações.
+
+- **atividade03**: Sistema de Notificações  
+  Implementação de notificações por email e SMS utilizando herança, sobrescrita de métodos, validação de dados e tratamento de exceções.
 
 
 ## Autor
